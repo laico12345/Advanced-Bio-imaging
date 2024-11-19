@@ -6,11 +6,22 @@ The container is based on docker, please [install docker here](https://www.docke
 
 ## 2. An overview of the dictionary structure for this example <a name="overview"></a>
 
-The main inference processing is executed in the file inference.py. It provides the method json_file_generate(), which creates the detections json file shown in the figures below.
+The main inference processing is executed in the file inference.py. It provides the method json_file_generate(), which creates the detections JSON file shown in the figures below.
 
-Before generating final output in the form of dictionary which contains all individual detected landmark in each corresponding individual image id (z-coordinate), which are ultimately stored in the file /output/<Image_name>/<model_name>.json.
+The output struct will be generated as follows:
+```
+./output
+├── image_1.jpg
+│   └── <model_name>.json    
+├── image_2.jpg
+│   └── <model_name>.json    
+│        ⋮
+└── image_n.jpg
+    └── <model_name>.json    
+  
+```
 
-The output json file is a dictionary and will result as the following format:
+The output JSON file is a dictionary and will result in the following format:
 ```
 {
     "Objects": [
@@ -63,4 +74,16 @@ The output json file is a dictionary and will result as the following format:
     "AI_ROI": []
 }
 ```
-*Note that each point is described by the following dictionary: image
+## 3. Implementing your algorithm into a docker container image <a name="todocker"></a>
+We recommend you develop and adapt this docker image example to your own detection solution. You can adapt, modify, or build the code from scratch.
+
+If you need a different base image to build your container (e.g., Tensorflow instead of Pytorch, or another AI toolbox), if you need additional libraries and to make sure that all source files (and weights) are copied to the docker container, you will have to adapt the Dockerfile and the requirements.txt file accordingly.
+
+Please refer to the image below (Dockerfile): image
+<img width="1299" src="docs/1.png">
+
+## 4. Building your container <a name="build"></a>
+To test if all dependencies are met, you should run the file build.bat (Windows) / build.sh (Linux) to build the docker container. Please note that the next step (testing the container) also runs a build, so this step is not mandatory if you are certain that everything is set up correctly.
+<img width="1299" src="docs/2.png">
+
+
