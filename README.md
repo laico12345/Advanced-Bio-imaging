@@ -12,7 +12,8 @@ Before generating final output in the form of dictionary which contains all indi
 
 The output json file is a dictionary and will result as the following format:
 ```
-{   "objects": [
+{
+    "annotations": [
         {
             "ID": 1,
             "Type": "rectangle",
@@ -20,7 +21,7 @@ The output json file is a dictionary and will result as the following format:
             "Description": "",
             "ShowLabel": true,
             "Length": 4,
-            "ObjectType": "T2",
+            "DiseaseType": "T2",
             "Points": [
                 {
                     "X": "3,3,83,83",
@@ -60,6 +61,6 @@ The output json file is a dictionary and will result as the following format:
     ],
     "index_annotation_img": 2,
     "AI_ROI": []
-    }
+}
 ```
 *Note that each point is described by the following dictionary: image
