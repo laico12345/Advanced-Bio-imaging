@@ -86,4 +86,9 @@ Please refer to the image below (Dockerfile): image
 To test if all dependencies are met, you should run the file build.bat (Windows) / build.sh (Linux) to build the docker container. Please note that the next step (testing the container) also runs a build, so this step is not mandatory if you are certain that everything is set up correctly.
 <img width="1299" src="docs/2.png">
 
+## 5. Testing your container <a name="test"></a>
+To test your container, you should run test.bat (on Windows) or test.sh (on Linux, might require sudo privileges). It should create a folder "/output" and then generate the result like the format we mentioned in [An overview of the dictionary structure for this example](#overview)
+
+## 6. Generating the bundle for uploading your algorithm <a name="export"></a>
+Finally, you need to run the export.sh (Linux) or export.bat script to package your docker image. This step creates a file with the extension "tar.gz", which you can then upload to grand-challenge to submit your algorithm.
 
