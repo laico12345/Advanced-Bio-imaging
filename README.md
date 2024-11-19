@@ -30,7 +30,7 @@ The output struct will be generated as follows:
   
 ```
 
-The output JSON file is a dictionary and will result in the following format:
+The output JSON file will result in the following format:
 ```
 {
     "Objects": [
