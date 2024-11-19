@@ -1,6 +1,14 @@
 # Advanced Bio-imaging
 The dataset description is described in 
 The Docker introduction is described in 
+
+## Content:
+1. [Prerequisites](#prerequisites)
+2. [An overview of the dictionary structure for this example](#overview)
+3. [Implementing your algorithm into a docker container image](#todocker)
+4. [Building your container](#build)
+5. [Testing your container](#test)
+
 ## 1. Prerequisites <a name="prerequisites"></a>
 
 The container is based on docker, please [install docker here](https://www.docker.com/get-started). 
