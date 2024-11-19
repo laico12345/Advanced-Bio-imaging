@@ -1,6 +1,7 @@
 # Advanced Bio-imaging
-The dataset description is described in 
-The Docker introduction is described in 
+The description of the final project and datasets is described in [rule](https://docs.google.com/presentation/d/1KWdDUJBOFQ-l1_yq7ieJCVcWiquQTDbk/edit?usp=drive_link&ouid=118423424017349178188&rtpof=true&sd=true). 
+
+The introduction of Docker is described in [docker](https://docs.google.com/presentation/d/1HOZIq5sPQXHh3e0X5C21qwqrKF_9VX_T/edit?usp=drive_link&ouid=118423424017349178188&rtpof=true&sd=true).
 
 ## Content:
 1. [Prerequisites](#prerequisites)
