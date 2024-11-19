@@ -36,8 +36,8 @@ The output JSON file will result in the following format:
 {
     "objects": [
         {
-            "ID": 1,#A unique identifier for the object
-            "Type": "rectangle",#The type of the object, fixed as rectangle
+            "ID": 1, #A unique identifier for the object
+            "Type": "rectangle", #The type of the object, fixed as rectangle
             "Name": "IfF_1_T2",
             "Description": "", #An empty string
             "ShowLabel": true, #A boolean indicating whether to show the label, always True
