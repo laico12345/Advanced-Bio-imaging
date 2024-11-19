@@ -1,5 +1,6 @@
 # Advanced Bio-imaging
-
+The dataset description is described in 
+The Docker introduction is described in 
 ## 1. Prerequisites <a name="prerequisites"></a>
 
 The container is based on docker, please [install docker here](https://www.docker.com/get-started). 
