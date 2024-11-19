@@ -34,7 +34,7 @@ The output struct will be generated as follows:
 The output JSON file will result in the following format:
 ```
 {
-    "Objects": [
+    "objects": [
         {
             "ID": 1,
             "Type": "rectangle",
@@ -42,7 +42,7 @@ The output JSON file will result in the following format:
             "Description": "",
             "ShowLabel": true,
             "Length": 4,
-            "ObjectType": "T2",
+            "objectType": "T2",
             "Points": [
                 {
                     "X": "3,3,83,83",
@@ -54,7 +54,7 @@ The output JSON file will result in the following format:
             "x_min": 3,
             "y_max": 85,
             "y_min": 5,
-            "Annotation_image": "",
+            "object_image": "",
             "Area": ""
         },
         {
@@ -64,7 +64,7 @@ The output JSON file will result in the following format:
             "Description": "",
             "ShowLabel": true,
             "Length": 4,
-            "DiseaseType": "T3",
+            "objectType": "T3",
             "Points": [
                 {
                     "X": "6,6,86,86",
@@ -76,11 +76,11 @@ The output JSON file will result in the following format:
             "x_min": 6,
             "y_max": 60,
             "y_min": 10,
-            "Annotation_image": "",
+            "object_image": "",
             "Area": ""
         }
     ],
-    "index_annotation_img": 2,
+    "index_object_img": 2,
     "AI_ROI": []
 }
 ```
