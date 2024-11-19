@@ -1,0 +1,50 @@
+{
+    "objects": [
+        {
+            "ID": 1,
+            "Type": "rectangle",
+            "Name": "IfF_1_T2",
+            "Description": "",
+            "ShowLabel": true,
+            "Length": 4,
+            "objectType": "T2",
+            "Points": [
+                {
+                    "X": "3,3,83,83",
+                    "Y": "85,5,5,85"
+                }
+            ],
+            "Distance": null,
+            "x_max": 83,
+            "x_min": 3,
+            "y_max": 85,
+            "y_min": 5,
+            "object_image": "",
+            "Area": ""
+        },
+        {
+            "ID": 2,
+            "Type": "rectangle",
+            "Name": "IfF_2_T3",
+            "Description": "",
+            "ShowLabel": true,
+            "Length": 4,
+            "objectType": "T3",
+            "Points": [
+                {
+                    "X": "6,6,86,86",
+                    "Y": "60,10,10,60"
+                }
+            ],
+            "Distance": null,
+            "x_max": 86,
+            "x_min": 6,
+            "y_max": 60,
+            "y_min": 10,
+            "object_image": "",
+            "Area": ""
+        }
+    ],
+    "index_object_img": 2,
+    "AI_ROI": []
+}
