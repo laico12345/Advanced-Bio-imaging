@@ -36,26 +36,26 @@ The output JSON file will result in the following format:
 {
     "objects": [
         {
-            "ID": 1, #A unique identifier for the object
-            "Type": "rectangle", #The type of the object, fixed as rectangle
+            "ID": 1, //A unique identifier for the object
+            "Type": "rectangle", //The type of the object, fixed as rectangle
             "Name": "IfF_1_T2",
-            "Description": "", #An empty string
-            "ShowLabel": true, #A boolean indicating whether to show the label, always True
-            "Length": 4, #Fixed as 4.
-            "objectType": "T2", #The class name of the object
-            "Points": [ #The coordinates of the object's corners, including x and y
+            "Description": "", //An empty string
+            "ShowLabel": true, //A boolean indicating whether to show the label, always True
+            "Length": 4, //Fixed as 4.
+            "objectType": "T2", //The class name of the object
+            "Points": [ //The coordinates of the object's corners, including x and y
                 {
                     "X": "3,3,83,83",
                     "Y": "85,5,5,85"
                 }
             ],
-            "Distance": null, #Set to null
-            "x_max": 83, #The maximum and minimum coordinates of the rectangle
+            "Distance": null, //Set to null
+            "x_max": 83, //The maximum and minimum coordinates of the rectangle
             "x_min": 3,
             "y_max": 85,
             "y_min": 5,
-            "object_image": "", #An empty string
-            "Area": "" #An empty string
+            "object_image": "", //An empty string
+            "Area": "" //An empty string
         },
         {
             "ID": 2,
@@ -80,8 +80,8 @@ The output JSON file will result in the following format:
             "Area": ""
         }
     ],
-    "index_object_img": 2, #The total number of objects
-    "AI_ROI": [] #An empty list
+    "index_object_img": 2, //The total number of objects
+    "AI_ROI": [] //An empty list
 }
 ```
 ## 3. Implementing your algorithm into a docker container image <a name="todocker"></a>
