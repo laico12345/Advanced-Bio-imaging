@@ -89,9 +89,6 @@ We recommend you develop and adapt this docker image example to your own detecti
 
 If you need a different base image to build your container (e.g., Tensorflow instead of Pytorch, or another AI toolbox), if you need additional libraries and to make sure that all source files (and weights) are copied to the docker container, you will have to adapt the Dockerfile and the requirements.txt file accordingly.
 
-Please refer to the image below (Dockerfile): image
-<img width="1299" src="docs/1.png">
-
 ## 4. Building your container <a name="build"></a>
 To test if all dependencies are met, you should run the file build.bat (Windows) / build.sh (Linux) to build the docker container. Please note that the next step (testing the container) also runs a build, so this step is not mandatory if you are certain that everything is set up correctly.
 <img width="1299" src="docs/2.png">
